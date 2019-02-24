@@ -4,10 +4,10 @@ import os
 # it is better to have an extra variable, than an extremely long line.
 img_path = os.path.join('', 'sorcery.png')
 
-sorcerer1 = os.path.join('', 'sorcery1.png')
-sorcerer2 = os.path.join('', 'sorcery2.png')
-sorcerer3 = os.path.join('', 'sorcery3.png')
-sorcerer4 = os.path.join('', 'sorcery4.png')
+sorcerer1 = os.path.join('../Ressources', 'sorcery1.png')
+sorcerer2 = os.path.join('../Ressources', 'sorcery2.png')
+sorcerer3 = os.path.join('../Ressources', 'sorcery3.png')
+sorcerer4 = os.path.join('../Ressources', 'sorcery4.png')
 
 
 class Bird(object):  # represents the bird, not the game	
